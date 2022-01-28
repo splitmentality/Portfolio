@@ -1,2 +1,2 @@
 # Portfolio
-CYB6004 Scripting Languages
+ Scripting assignment
