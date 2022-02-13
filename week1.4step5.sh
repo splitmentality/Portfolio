@@ -1,4 +1,5 @@
 #!/bin/bash
+#ddrage0 Week 1.4 Step 5
 echo "My name is Dan, welcome to the viewing of this script."
 echo "To show the extra layer of complexity please enter your name :) "
 read name
