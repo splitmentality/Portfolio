@@ -2,7 +2,7 @@
 #ddrage0 #30/1/2022
 #Combining different scripts #Step 2.5
 
-./passwordCheck.sh
+../passwordCheck.sh
 # To make variable previous script 0 or 1
 var_1=$?
 # Create space for easier viewing
@@ -29,7 +29,7 @@ elif [ "$var_2" == 2 ]; then
     ./foldercopier.sh
 
 elif [ "$var_2" == 3 ]; then
-    ~/Documents/Scripts/Portfolio/setPassword.sh
+    ../setPassword.sh
 
 else
     echo "Invalid command. Start again"

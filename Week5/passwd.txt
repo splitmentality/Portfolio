@@ -1,0 +1,17 @@
+root:x:0:0:root:/root:/usr/bin/zsh: No such file or directory
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin: No such file or directory
+bin:x:2:2:bin:/bin:/usr/sbin/nologin: No such file or directory
+sys:x:3:3:sys:/dev:/usr/sbin/nologin: No such file or directory
+sync:x:4:65534:sync:/bin:/bin/sync: No such file or directory
+games:x:5:60:games:/usr/games:/usr/sbin/nologin: No such file or directory
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin: No such file or directory
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin: No such file or directory
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin: No such file or directory
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin: No such file or directory
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin: No such file or directory
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin: No such file or directory
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin: No such file or directory
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin: No such file or directory
+list:x:38:38:Mailing: command not found
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin: No such file or directory
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin'

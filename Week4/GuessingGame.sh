@@ -1,6 +1,10 @@
 #!/bin/bash
 #ddrage0 Week4.3 11/02/2022
 
+#filtering out all text except for echo containig exclamation mark.
+#changing echo "Correct!" to echo "Right!"
+grep 'echo ".*!"' '/Users/dan/Documents/GitHub/Portfolio/Week4/GuessingGame.sh' | sed 's/Correct/Right/'
+
 while [[ "$num1" != 42 ]]; do
     read -p "Please type a number between 1 and 100 " num1
 

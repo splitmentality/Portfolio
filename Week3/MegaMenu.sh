@@ -20,33 +20,29 @@ if [ "$var_1" == 0 ]; then
     echo "6 Check Filenames"
     echo "7 Download a File"
     echo "8 exit"
-else
-    echo "Goodbye"
 fi
-echo ""
-# Allow user to select 1, 2 or 3 or invalid
+# Allow user to select 1, 2, 3, 4, 5, 6, 7, 8 or invalid
 read var_2
 
 if [ "$var_2" == 1 ]; then
-  /Users/dan/Documents/scripting/Portfolio/foldermaker.sh
+  ../Week3/foldermaker.sh
 
 elif [ "$var_2" == 2 ]; then
-    /Users/dan/Documents/scripting/Portfolio/foldercopier.sh
+    ../foldercopier.sh
 
 elif [ "$var_2" == 3 ]; then
-    /Users/dan/Documents/scripting/Portfolio/setPassword.sh
+    ../setPassword.sh
 
 elif [ "$var_2" == 4 ]; then
-    /Users/dan/Documents/scripting/Portfolio/Week3/basicCalculator.sh
+    ../Week3/basicCalculator.sh
 
 elif [ "$var_2" == 5 ]; then
-    /Users/dan/Documents/scripting/Portfolio/megafolder.sh
-
+    ../Week3/megafolder.sh
 elif [ "$var_2" == 6 ]; then
-    /Users/dan/Documents/scripting/Portfolio/Week3/filenames.sh
+    ../Week3/filenames.sh
 
 elif [ "$var_2" == 7 ]; then
-    /home/kali/Documents/Scripts/Portfolio/Week3/webDownloader.sh
+    ../Week3/webDownloader.sh
 
 elif [ "$var_2" == 8 ]; then
     exit 0
